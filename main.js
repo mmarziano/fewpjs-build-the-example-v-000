@@ -24,7 +24,7 @@ function createListeners() {
                 // document.querySelector('#modal').className('hidden').remove
                 alert(response)
               
-            })
+            });
           };
           });
           
