@@ -20,8 +20,10 @@ function createListeners() {
             heart.innerText = FULL_HEART;
             heart.className = 'activated-heart'
           } else {
-            .catch(() => {
-                document.querySelector('#modal').className('hidden').remove
+            .catch((response) => {
+                // document.querySelector('#modal').className('hidden').remove
+                alert(response)
+              
             })
           };
           });
