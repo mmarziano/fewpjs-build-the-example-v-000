@@ -22,13 +22,11 @@ function createListeners() {
           } else {
             .catch((response) => {
                 // document.querySelector('#modal').className('hidden').remove
-                alert(response)
-              
-            });
-          };
+                alert(response);
           });
-          
-        });
+        }
+      });
+    });
   }
 }
 
